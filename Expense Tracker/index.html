@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>Expense Tracker</h1>
+    <div class="total-amount">Total Expense: $<span id="total">0.00</span></div>
+  </header>
+
+  <section class="expense-section">
+    <div class="form-container">
+      <h2>Add New Expense</h2>
+      <form id="expense-form">
+        <input type="text" id="expense-name" placeholder="Expense Name" required>
+        <input type="number" id="expense-amount" placeholder="Amount" required>
+        <input type="date" id="expense-date" required>
+        <select id="expense-category">
+          <option value="Food">Food</option>
+          <option value="Transport">Transport</option>
+          <option value="Shopping">Shopping</option>
+          <option value="Bills">Bills</option>
+          <option value="Other">Other</option>
+        </select>
+        <button type="submit" class="add-btn">Add Expense</button>
+      </form>
+    </div>
+
+    <div class="expense-list">
+      <h2>Your Expenses</h2>
+      <div id="expense-table">
+        <!-- Expense items will be dynamically added here -->
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Expense Tracker | Copyrights @ 2017</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
