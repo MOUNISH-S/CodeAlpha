@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f4f8;
+    color: #333;
+  }
+  
+  /* Login Page */
+  #login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #4ca1af, #2c3e50);
+  }
+  
+  .login-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .login-container:hover {
+    transform: scale(1.02);
+  }
+  
+  .login-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  #login-form input {
+    width: 80%;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .btn-login {
+    background: #4ca1af;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn-login:hover {
+    background: #2c3e50;
+  }
+  
+  /* Dashboard Page */
+  .hidden {
+    display: none;
+  }
+  
+  header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  header .logout-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .profile-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .user-profile {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .feeds-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  .feed-card {
+    background: #fff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feed-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  }
+  
+  .facebook-card {
+    border-left: 8px solid #3b5998;
+  }
+  
+  .twitter-card {
+    border-left: 8px solid #1da1f2;
+  }
+  
+  .instagram-card {
+    border-left: 8px solid #c13584;
+  }
+  
+  .linkedin-card {
+    border-left: 8px solid #0077b5;
+  }
+  
+  footer {
+    background: #2c3e50;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+  }
+  
