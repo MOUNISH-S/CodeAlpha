@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="home-content">
+            <h1 class="animate-text">Hello, I'm <span>Mounish S</span></h1>
+            <p class="animate-text">A passionate <span class="typing-text">Full Stack Developer</span> specialized in building modern, responsive, and interactive websites.</p>
+            <a href="#contact" class="btn home-btn animate-text">Hire Me</a>
+        </div>
+        <div class="scroll-down">Scroll Down</div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+            <div class="about-text">
+                <h3>I'm a Passionate Web Developer</h3>
+                <p>I am a creative, detail-oriented full-stack web developer with a strong passion for coding and building dynamic web applications. I love learning new technologies and continuously improving my skills in front-end and back-end development. I have a knack for designing and implementing scalable solutions and turning complex ideas into beautiful digital experiences.</p>
+                <p>When I’m not coding, I love experimenting with new design trends, exploring the latest web development tools, and sharing my knowledge through my blog. I strive to write clean, efficient, and maintainable code in all my projects.</p>
+                <a href="resume.pdf" class="btn" target="_blank">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML5</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 95%;"><span>95%</span></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS3</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"><span>90%</span></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"><span>85%</span></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>React.js</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"><span>80%</span></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Node.js</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"><span>75%</span></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>MySQL</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"><span>70%</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Weather App</h3>
+                <p>A dynamic weather application built using React and OpenWeather API to showcase real-time weather data.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>E-commerce Website</h3>
+                <p>A fully-functional e-commerce website with React, Node, and MongoDB, featuring cart management and checkout functionality.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Data Visualization Dashboard</h3>
+                <p>Interactive data visualization dashboard using D3.js and React to display business analytics and insights.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+<!-- Experience Section -->
+<section class="experience-section" id="experience">
+    <h2 class="experience-heading">Professional Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="time">Jan 2022 - Present</div>
+        <h3>Full Stack Developer</h3>
+        <p>Developed modern web applications using React, Node.js, and Spring Boot for various clients, ensuring seamless UI/UX and high performance.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="time">Mar 2020 - Dec 2021</div>
+        <h3>Frontend Developer</h3>
+        <p>Implemented responsive and dynamic interfaces using HTML, CSS, and JavaScript for multiple e-commerce platforms.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="time">Jun 2018 - Feb 2020</div>
+        <h3>Web Designer</h3>
+        <p>Designed user-friendly websites and interfaces using Figma and Adobe XD, creating visual prototypes and wireframes for clients.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Your Name. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+  
+</body>
+</html>
